@@ -1,0 +1,301 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Sparsh Furniture World — design system.
+ * Warm ivory / cream grounds, walnut + bronze accents, espresso for contrast.
+ * Editorial serif (Cormorant Garamond) for display, Jost for body & labels.
+ * All colours are oklch tokens; components only use the semantic names below.
+ */
+
+@theme inline {
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Jost", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+
+  /* Brand palette */
+  --color-ivory: var(--ivory);
+  --color-cream: var(--cream);
+  --color-walnut: var(--walnut);
+  --color-espresso: var(--espresso);
+  --color-charcoal: var(--charcoal);
+  --color-bronze: var(--bronze);
+  --color-paper: var(--paper);
+  --color-on-dark: var(--on-dark);
+  --color-on-dark-muted: var(--on-dark-muted);
+  --color-line-dark: var(--line-dark);
+
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-flip: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+:root {
+  --radius: 0.125rem;
+
+  --ivory: oklch(0.968 0.009 84.6);
+  --cream: oklch(0.927 0.018 81.3);
+  --walnut: oklch(0.423 0.053 53.6);
+  --espresso: oklch(0.251 0.008 59.3);
+  --charcoal: oklch(0.311 0.007 67.6);
+  --bronze: oklch(0.634 0.075 67.9);
+  --paper: oklch(1 0 0);
+  --on-dark: oklch(0.968 0.009 84.6);
+  --on-dark-muted: oklch(0.968 0.009 84.6 / 0.68);
+  --line-dark: oklch(0.968 0.009 84.6 / 0.16);
+
+  --background: var(--ivory);
+  --foreground: var(--espresso);
+  --card: var(--paper);
+  --card-foreground: var(--espresso);
+  --popover: var(--ivory);
+  --popover-foreground: var(--espresso);
+  --primary: var(--walnut);
+  --primary-foreground: var(--ivory);
+  --secondary: var(--cream);
+  --secondary-foreground: var(--espresso);
+  --muted: var(--cream);
+  --muted-foreground: oklch(0.45 0.012 62);
+  --accent: var(--bronze);
+  --accent-foreground: var(--espresso);
+  --destructive: oklch(0.52 0.16 30);
+  --destructive-foreground: var(--ivory);
+  --border: oklch(0.86 0.02 75);
+  --input: oklch(0.82 0.022 75);
+  --ring: var(--bronze);
+
+  --gradient-hero-overlay: linear-gradient(
+    100deg,
+    oklch(0.2 0.01 60 / 0.72) 0%,
+    oklch(0.2 0.01 60 / 0.42) 45%,
+    oklch(0.2 0.01 60 / 0.08) 100%
+  );
+  --gradient-image-bottom: linear-gradient(
+    to top,
+    oklch(0.2 0.01 60 / 0.72) 0%,
+    oklch(0.2 0.01 60 / 0.1) 55%,
+    transparent 100%
+  );
+  --shadow-soft: 0 24px 60px -30px oklch(0.25 0.01 60 / 0.35);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.02;
+  }
+
+  ::selection {
+    background: var(--bronze);
+    color: var(--espresso);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+  }
+}
+
+/* ---------- Layout & type utilities ---------- */
+
+@utility container-editorial {
+  width: 100%;
+  max-width: 88rem;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 4vw, 3.5rem);
+}
+
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+@utility display-xl {
+  font-size: clamp(2.9rem, 7.4vw, 7rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+}
+
+@utility display-lg {
+  font-size: clamp(2.4rem, 5.2vw, 4.75rem);
+  line-height: 1;
+  letter-spacing: -0.015em;
+}
+
+@utility display-md {
+  font-size: clamp(1.9rem, 3.4vw, 3rem);
+  line-height: 1.05;
+}
+
+@utility lede {
+  font-size: clamp(1.02rem, 1.25vw, 1.15rem);
+  line-height: 1.7;
+}
+
+@utility hero-overlay {
+  background: var(--gradient-hero-overlay);
+}
+
+@utility image-bottom-overlay {
+  background: var(--gradient-image-bottom);
+}
+
+@utility shadow-soft {
+  box-shadow: var(--shadow-soft);
+}
+
+/* Animated underline for links: grows from the left on hover / focus. */
+@utility link-line {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.2em;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 280ms var(--ease-editorial);
+  }
+  &:hover::after,
+  &:focus-visible::after,
+  &[data-status="active"]::after,
+  .group:hover &::after {
+    transform: scaleX(1);
+  }
+}
+
+/* ---------- 3D flip card ---------- */
+
+@utility flip-scene {
+  perspective: 1600px;
+}
+
+@utility flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 650ms var(--ease-flip);
+  [data-flipped="true"] > & {
+    transform: rotateY(180deg);
+  }
+}
+
+@utility flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
+}
+
+@utility flip-back {
+  transform: rotateY(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flip-inner {
+    transition: none;
+    transform: none !important;
+  }
+  .flip-face {
+    transition: opacity 200ms linear;
+    backface-visibility: visible;
+  }
+  .flip-back {
+    transform: none;
+    opacity: 0;
+  }
+  [data-flipped="true"] .flip-back {
+    opacity: 1;
+  }
+  [data-flipped="true"] .flip-front {
+    opacity: 0;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Gentle scroll cue line */
+@keyframes scroll-cue {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  45% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  55% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+}
+
+@utility animate-scroll-cue {
+  animation: scroll-cue 2.4s var(--ease-editorial) infinite;
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}

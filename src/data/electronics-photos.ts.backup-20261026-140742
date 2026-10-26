@@ -1,0 +1,47 @@
+
+
+import tv01 from "../assets/electronics/Slim Smart TV.avif";
+import tv02 from "../assets/electronics/Wide 4K-Style TV.jpg";
+import tv03 from "../assets/electronics/Large-Screen TV.jpg";
+import tv04 from "../assets/electronics/Compact Television.jpg";
+import tv05 from "../assets/electronics/Curved-Screen TV.jpg";
+import tv06 from "../assets/electronics/Centre-Stand Smart TV.jpg";
+import tv07 from "../assets/electronics/Silver-Frame Television.jpg";
+import tv08 from "../assets/electronics/Low-Profile Smart TV.webp";
+import tv09 from "../assets/electronics/Borderless-Style TV.jpg";
+import tv10 from "../assets/electronics/Pedestal-Stand TV.jpg";
+
+export type VerifiedProductPhoto = {
+  src: string;
+  alt: string;
+  sourcePage: string;
+  licenseUrl: string;
+  attribution: string;
+  width: number;
+  height: number;
+};
+
+const localPhoto = (src: string, alt: string): VerifiedProductPhoto => ({
+  src,
+  alt,
+  sourcePage: "",
+  licenseUrl: "",
+  attribution: "Locally supplied image",
+  width: 0,
+  height: 0,
+});
+
+export const verifiedElectronicsPhotos: Partial<
+  Record<string, VerifiedProductPhoto>
+> = {
+  "demo-televisions-01": localPhoto(tv01, "Slim Smart TV"),
+  "demo-televisions-02": localPhoto(tv02, "Wide 4K-Style TV"),
+  "demo-televisions-03": localPhoto(tv03, "Large-Screen TV"),
+  "demo-televisions-04": localPhoto(tv04, "Compact Television"),
+  "demo-televisions-05": localPhoto(tv05, "Curved-Screen TV"),
+  "demo-televisions-06": localPhoto(tv06, "Centre-Stand Smart TV"),
+  "demo-televisions-07": localPhoto(tv07, "Silver-Frame Television"),
+  "demo-televisions-08": localPhoto(tv08, "Low-Profile Smart TV"),
+  "demo-televisions-09": localPhoto(tv09, "Borderless-Style TV"),
+  "demo-televisions-10": localPhoto(tv10, "Pedestal-Stand TV"),
+};

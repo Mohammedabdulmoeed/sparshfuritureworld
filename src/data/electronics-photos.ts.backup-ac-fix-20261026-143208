@@ -1,0 +1,130 @@
+﻿export type VerifiedProductPhoto = {
+  src: string;
+  alt: string;
+  sourcePage: string;
+  licenseUrl: string;
+  attribution: string;
+  width: number;
+  height: number;
+};
+const imageModules = import.meta.glob(
+  "../assets/electronics/*",
+  {
+    eager: true,
+    query: "?url",
+    import: "default",
+  }
+) as Record<string, string>;
+
+const localPhoto = (filename: string, alt: string): VerifiedProductPhoto => {
+  const key = `../assets/electronics/${filename}`;
+  const src = imageModules[key];
+
+  if (!src) {
+    console.error(`[Electronics images] File not found: ${key}`);
+  }
+
+  return {
+    src: src ?? "",
+    alt,
+    sourcePage: "",
+    licenseUrl: "",
+    attribution: "Locally supplied image",
+    width: 0,
+    height: 0,
+  };
+};
+
+export const verifiedElectronicsPhotos: Partial<
+  Record<string, VerifiedProductPhoto>
+> = {
+  "demo-televisions-01": localPhoto("Slim Smart TV.avif", "Slim Smart TV"),
+  "demo-televisions-02": localPhoto("Wide 4K-Style TV.jpg", "Wide 4K-Style TV"),
+  "demo-televisions-03": localPhoto("Large-Screen TV.jpg", "Large-Screen TV"),
+  "demo-televisions-04": localPhoto("Compact Television.jpg", "Compact Television"),
+  "demo-televisions-05": localPhoto("Curved-Screen TV.jpg", "Curved-Screen TV"),
+  "demo-televisions-06": localPhoto("Centre-Stand Smart TV.jpg", "Centre-Stand Smart TV"),
+  "demo-televisions-07": localPhoto("Silver-Frame Television.jpg", "Silver-Frame Television"),
+  "demo-televisions-08": localPhoto("Low-Profile Smart TV.webp", "Low-Profile Smart TV"),
+  "demo-televisions-09": localPhoto("Borderless-Style TV.jpg", "Borderless-Style TV"),
+  "demo-televisions-10": localPhoto("Pedestal-Stand TV.jpg", "Pedestal-Stand TV"),
+
+  "demo-refrigerators-01": localPhoto("Single-Door Refrigerator.jpg", "Single-Door Refrigerator"),
+  "demo-refrigerators-02": localPhoto("Double-Door Refrigerator.webp", "Double-Door Refrigerator"),
+  "demo-refrigerators-03": localPhoto("Side-by-Side Refrigerator.webp", "Side-by-Side Refrigerator"),
+  "demo-refrigerators-04": localPhoto("French-Door Refrigerator.jpg", "French-Door Refrigerator"),
+  "demo-refrigerators-05": localPhoto("Compact Single-Door Refrigerator.jpg", "Compact Single-Door Refrigerator"),
+  "demo-refrigerators-06": localPhoto("Silver Double-Door Refrigerator.webp", "Silver Double-Door Refrigerator"),
+  "demo-refrigerators-07": localPhoto("Dark Side-by-Side Refrigerator.jpg", "Dark Side-by-Side Refrigerator"),
+  "demo-refrigerators-08": localPhoto("Bottom-Freezer Refrigerator.jpg", "Bottom-Freezer Refrigerator"),
+  "demo-refrigerators-09": localPhoto("White Double-Door Refrigerator.webp", "White Double-Door Refrigerator"),
+  "demo-refrigerators-10": localPhoto("Four-Door Refrigerator.jpg", "Four-Door Refrigerator"),
+
+  "demo-washing-machines-01": localPhoto("White Front-Load Washer.webp", "White Front-Load Washer"),
+  "demo-washing-machines-02": localPhoto("Silver Front-Load Washer.jpg", "Silver Front-Load Washer"),
+  "demo-washing-machines-03": localPhoto("Dark Front-Load Washer.webp", "Dark Front-Load Washer"),
+  "demo-washing-machines-04": localPhoto("White Top-Load Washer.jpg", "White Top-Load Washer"),
+  "demo-washing-machines-05": localPhoto("Silver Top-Load Washer.jpg", "Silver Top-Load Washer"),
+  "demo-washing-machines-06": localPhoto("Compact Top-Load Washer.jpg", "Compact Top-Load Washer"),
+  "demo-washing-machines-07": localPhoto("Twin-Tub Washer.jpg", "Twin-Tub Washer"),
+  "demo-washing-machines-08": localPhoto("Blue Twin-Tub Washer.avif", "Blue Twin-Tub Washer"),
+  "demo-washing-machines-09": localPhoto("Compact Front-Load Washer.jpg", "Compact Front-Load Washer"),
+  "demo-washing-machines-10": localPhoto("Wide Twin-Tub Washer.avif", "Wide Twin-Tub Washer"),
+
+  "demo-air-conditioners-01": localPhoto("White Split AC Indoor Unit.avif", "White Split AC Indoor Unit"),
+  "demo-air-conditioners-02": localPhoto("Slim Split AC Indoor Unit.avif", "Slim Split AC Indoor Unit"),
+  "demo-air-conditioners-03": localPhoto("Silver Split AC Indoor Unit.jpg", "Silver Split AC Indoor Unit"),
+  "demo-air-conditioners-06": localPhoto("Compact Split AC Unit Set.webp", "Compact Split AC Unit Set"),
+  "demo-air-conditioners-07": localPhoto("Window Air Conditioner.jpg", "Window Air Conditioner"),
+  "demo-air-conditioners-08": localPhoto("Compact Window Air Conditioner.jpg", "Compact Window Air Conditioner"),
+  "demo-air-conditioners-09": localPhoto("Wide Window Air Conditioner.jpg", "Wide Window Air Conditioner"),
+
+  "demo-water-heaters-air-coolers-02": localPhoto("Compact Water Heater.jpg", "Compact Water Heater"),
+  "demo-water-heaters-air-coolers-03": localPhoto("Horizontal Water Heater.webp", "Horizontal Water Heater"),
+  "demo-water-heaters-air-coolers-04": localPhoto("Slim Water Heater.png", "Slim Water Heater"),
+  "demo-water-heaters-air-coolers-05": localPhoto("Square Water Heater.jpg", "Square Water Heater"),
+  "demo-water-heaters-air-coolers-06": localPhoto("Portable Air Cooler.jpg", "Portable Air Cooler"),
+
+  "demo-microwave-ovens-01": localPhoto("White Solo Microwave.jpg", "White Solo Microwave"),
+  "demo-microwave-ovens-02": localPhoto("Silver Solo Microwave.jpg", "Silver Solo Microwave"),
+  "demo-microwave-ovens-03": localPhoto("Dark Solo Microwave.avif", "Dark Solo Microwave"),
+  "demo-microwave-ovens-04": localPhoto("Compact Solo Microwave.avif", "Compact Solo Microwave"),
+  "demo-microwave-ovens-06": localPhoto("Black Grill Microwave.avif", "Black Grill Microwave"),
+
+  "demo-kitchen-chimneys-01": localPhoto("Pyramid Kitchen Chimney.jpg", "Pyramid Kitchen Chimney"),
+  "demo-kitchen-chimneys-02": localPhoto("Curved-Glass Kitchen Chimney.jpg", "Curved-Glass Kitchen Chimney"),
+  "demo-kitchen-chimneys-03": localPhoto("Straight-Glass Kitchen Chimney.avif", "Straight-Glass Kitchen Chimney"),
+
+  "demo-gas-stoves-01": localPhoto("Two-Burner Glass Gas Stove.webp", "Two-Burner Glass Gas Stove"),
+  "demo-gas-stoves-02": localPhoto("Three-Burner Glass Gas Stove.webp", "Three-Burner Glass Gas Stove"),
+  "demo-gas-stoves-03": localPhoto("Four-Burner Glass Gas Stove.jpg", "Four-Burner Glass Gas Stove"),
+
+  "demo-mixer-grinders-03": localPhoto("Silver Mixer with Two Jars.jpg", "Silver Mixer with Two Jars"),
+  "demo-mixer-grinders-04": localPhoto("Compact Mixer with One Jar.jpg", "Compact Mixer with One Jar"),
+  "demo-mixer-grinders-05": localPhoto("Dark Mixer with Three Jars.jpg", "Dark Mixer with Three Jars"),
+
+  "demo-laptops-computers-01": localPhoto("Slim Silver Laptop.jpg", "Slim Silver Laptop"),
+  "demo-laptops-computers-02": localPhoto("Dark Business Laptop.avif", "Dark Business Laptop"),
+  "demo-laptops-computers-03": localPhoto("Wide Gaming Laptop.jpg", "Wide Gaming Laptop"),
+
+  "demo-earbuds-headphones-04": localPhoto("Compact Earbuds with Case.webp", "Compact Earbuds with Case"),
+  "demo-earbuds-headphones-05": localPhoto("Stemless Earbuds with Case.jpg", "Stemless Earbuds with Case"),
+  "demo-earbuds-headphones-06": localPhoto("Silver Over-Ear Headphones.jpg", "Silver Over-Ear Headphones"),
+  "demo-earbuds-headphones-10": localPhoto("Compact On-Ear Headphones.jpg", "Compact On-Ear Headphones"),
+
+  "demo-cameras-01": localPhoto("Dark DSLR-Style Camera.webp", "Dark DSLR-Style Camera"),
+  "demo-cameras-02": localPhoto("Wide DSLR-Style Camera.jpg", "Wide DSLR-Style Camera"),
+  "demo-cameras-03": localPhoto("Compact DSLR-Style Camera.jpg", "Compact DSLR-Style Camera"),
+  "demo-cameras-10": localPhoto("Rounded Compact Digital Camera.jpg", "Rounded Compact Digital Camera"),
+
+  "demo-speakers-home-theatre-01": localPhoto("Compact Bluetooth Speaker.jpg", "Compact Bluetooth Speaker"),
+  "demo-speakers-home-theatre-04": localPhoto("Tall Party Speaker.jpg", "Tall Party Speaker"),
+  "demo-speakers-home-theatre-06": localPhoto("Slim Soundbar.jpg", "Slim Soundbar"),
+  "demo-speakers-home-theatre-08": localPhoto("Home Theatre Speaker Set.jpg", "Home Theatre Speaker Set"),
+  "demo-speakers-home-theatre-10": localPhoto("Tall Home Theatre Speaker Set.webp", "Tall Home Theatre Speaker Set"),
+
+  "demo-projectors-03": localPhoto("Wide Home Cinema Projector.jpg", "Wide Home Cinema Projector"),
+  "demo-projectors-05": localPhoto("Compact Presentation Projector.jpg", "Compact Presentation Projector"),
+  "demo-projectors-06": localPhoto("Wide Presentation Projector.jpg", "Wide Presentation Projector"),
+};
+

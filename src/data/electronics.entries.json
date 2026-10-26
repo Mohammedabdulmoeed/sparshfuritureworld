@@ -1,0 +1,968 @@
+[
+  {
+    "id": "demo-televisions-01",
+    "slug": "demo-televisions-01",
+    "name": "Slim Smart TV",
+    "department": "electronics",
+    "category": "televisions",
+    "subcategory": "Smart TV",
+    "demonstration": true,
+    "description": "Demonstration illustration of a slim smart tv. This is not a confirmed showroom model or inventory listing. Ask us about actual smart tv options, current prices and availability.",
+    "asset": "televisions-01.svg"
+  },
+  {
+    "id": "demo-televisions-02",
+    "slug": "demo-televisions-02",
+    "name": "Wide 4K-Style TV",
+    "department": "electronics",
+    "category": "televisions",
+    "subcategory": "4K-style television",
+    "demonstration": true,
+    "description": "Demonstration illustration of a wide 4k-style tv. This is not a confirmed showroom model or inventory listing. Ask us about actual 4k-style television options, current prices and availability.",
+    "asset": "televisions-02.svg"
+  },
+  {
+    "id": "demo-televisions-03",
+    "slug": "demo-televisions-03",
+    "name": "Large-Screen TV",
+    "department": "electronics",
+    "category": "televisions",
+    "subcategory": "Large-screen television",
+    "demonstration": true,
+    "description": "Demonstration illustration of a large-screen tv. This is not a confirmed showroom model or inventory listing. Ask us about actual large-screen television options, current prices and availability.",
+    "asset": "televisions-03.svg"
+  },
+  {
+    "id": "demo-televisions-04",
+    "slug": "demo-televisions-04",
+    "name": "Compact Television",
+    "department": "electronics",
+    "category": "televisions",
+    "subcategory": "Compact television",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact television. This is not a confirmed showroom model or inventory listing. Ask us about actual compact television options, current prices and availability.",
+    "asset": "televisions-04.svg"
+  },
+  {
+    "id": "demo-televisions-05",
+    "slug": "demo-televisions-05",
+    "name": "Curved-Screen TV",
+    "department": "electronics",
+    "category": "televisions",
+    "subcategory": "Curved television",
+    "demonstration": true,
+    "description": "Demonstration illustration of a curved-screen tv. This is not a confirmed showroom model or inventory listing. Ask us about actual curved television options, current prices and availability.",
+    "asset": "televisions-05.svg"
+  },
+  {
+    "id": "demo-televisions-06",
+    "slug": "demo-televisions-06",
+    "name": "Centre-Stand Smart TV",
+    "department": "electronics",
+    "category": "televisions",
+    "subcategory": "Smart TV",
+    "demonstration": true,
+    "description": "Demonstration illustration of a centre-stand smart tv. This is not a confirmed showroom model or inventory listing. Ask us about actual smart tv options, current prices and availability.",
+    "asset": "televisions-06.svg"
+  },
+  {
+    "id": "demo-televisions-07",
+    "slug": "demo-televisions-07",
+    "name": "Silver-Frame Television",
+    "department": "electronics",
+    "category": "televisions",
+    "subcategory": "Television",
+    "demonstration": true,
+    "description": "Demonstration illustration of a silver-frame television. This is not a confirmed showroom model or inventory listing. Ask us about actual television options, current prices and availability.",
+    "asset": "televisions-07.svg"
+  },
+  {
+    "id": "demo-televisions-08",
+    "slug": "demo-televisions-08",
+    "name": "Low-Profile Smart TV",
+    "department": "electronics",
+    "category": "televisions",
+    "subcategory": "Smart TV",
+    "demonstration": true,
+    "description": "Demonstration illustration of a low-profile smart tv. This is not a confirmed showroom model or inventory listing. Ask us about actual smart tv options, current prices and availability.",
+    "asset": "televisions-08.svg"
+  },
+  {
+    "id": "demo-televisions-09",
+    "slug": "demo-televisions-09",
+    "name": "Borderless-Style TV",
+    "department": "electronics",
+    "category": "televisions",
+    "subcategory": "Television",
+    "demonstration": true,
+    "description": "Demonstration illustration of a borderless-style tv. This is not a confirmed showroom model or inventory listing. Ask us about actual television options, current prices and availability.",
+    "asset": "televisions-09.svg"
+  },
+  {
+    "id": "demo-televisions-10",
+    "slug": "demo-televisions-10",
+    "name": "Pedestal-Stand TV",
+    "department": "electronics",
+    "category": "televisions",
+    "subcategory": "Television",
+    "demonstration": true,
+    "description": "Demonstration illustration of a pedestal-stand tv. This is not a confirmed showroom model or inventory listing. Ask us about actual television options, current prices and availability.",
+    "asset": "televisions-10.svg"
+  },
+  {
+    "id": "demo-refrigerators-01",
+    "slug": "demo-refrigerators-01",
+    "name": "Single-Door Refrigerator",
+    "department": "electronics",
+    "category": "refrigerators",
+    "subcategory": "Single door",
+    "demonstration": true,
+    "description": "Demonstration illustration of a single-door refrigerator. This is not a confirmed showroom model or inventory listing. Ask us about actual single door options, current prices and availability.",
+    "asset": "refrigerators-01.svg"
+  },
+  {
+    "id": "demo-refrigerators-02",
+    "slug": "demo-refrigerators-02",
+    "name": "Double-Door Refrigerator",
+    "department": "electronics",
+    "category": "refrigerators",
+    "subcategory": "Double door",
+    "demonstration": true,
+    "description": "Demonstration illustration of a double-door refrigerator. This is not a confirmed showroom model or inventory listing. Ask us about actual double door options, current prices and availability.",
+    "asset": "refrigerators-02.svg"
+  },
+  {
+    "id": "demo-refrigerators-03",
+    "slug": "demo-refrigerators-03",
+    "name": "Side-by-Side Refrigerator",
+    "department": "electronics",
+    "category": "refrigerators",
+    "subcategory": "Side-by-side",
+    "demonstration": true,
+    "description": "Demonstration illustration of a side-by-side refrigerator. This is not a confirmed showroom model or inventory listing. Ask us about actual side-by-side options, current prices and availability.",
+    "asset": "refrigerators-03.svg"
+  },
+  {
+    "id": "demo-refrigerators-04",
+    "slug": "demo-refrigerators-04",
+    "name": "French-Door Refrigerator",
+    "department": "electronics",
+    "category": "refrigerators",
+    "subcategory": "French door",
+    "demonstration": true,
+    "description": "Demonstration illustration of a french-door refrigerator. This is not a confirmed showroom model or inventory listing. Ask us about actual french door options, current prices and availability.",
+    "asset": "refrigerators-04.svg"
+  },
+  {
+    "id": "demo-refrigerators-05",
+    "slug": "demo-refrigerators-05",
+    "name": "Compact Single-Door Refrigerator",
+    "department": "electronics",
+    "category": "refrigerators",
+    "subcategory": "Single door",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact single-door refrigerator. This is not a confirmed showroom model or inventory listing. Ask us about actual single door options, current prices and availability.",
+    "asset": "refrigerators-05.svg"
+  },
+  {
+    "id": "demo-refrigerators-06",
+    "slug": "demo-refrigerators-06",
+    "name": "Silver Double-Door Refrigerator",
+    "department": "electronics",
+    "category": "refrigerators",
+    "subcategory": "Double door",
+    "demonstration": true,
+    "description": "Demonstration illustration of a silver double-door refrigerator. This is not a confirmed showroom model or inventory listing. Ask us about actual double door options, current prices and availability.",
+    "asset": "refrigerators-06.svg"
+  },
+  {
+    "id": "demo-refrigerators-07",
+    "slug": "demo-refrigerators-07",
+    "name": "Dark Side-by-Side Refrigerator",
+    "department": "electronics",
+    "category": "refrigerators",
+    "subcategory": "Side-by-side",
+    "demonstration": true,
+    "description": "Demonstration illustration of a dark side-by-side refrigerator. This is not a confirmed showroom model or inventory listing. Ask us about actual side-by-side options, current prices and availability.",
+    "asset": "refrigerators-07.svg"
+  },
+  {
+    "id": "demo-refrigerators-08",
+    "slug": "demo-refrigerators-08",
+    "name": "Bottom-Freezer Refrigerator",
+    "department": "electronics",
+    "category": "refrigerators",
+    "subcategory": "Bottom freezer",
+    "demonstration": true,
+    "description": "Demonstration illustration of a bottom-freezer refrigerator. This is not a confirmed showroom model or inventory listing. Ask us about actual bottom freezer options, current prices and availability.",
+    "asset": "refrigerators-08.svg"
+  },
+  {
+    "id": "demo-refrigerators-09",
+    "slug": "demo-refrigerators-09",
+    "name": "White Double-Door Refrigerator",
+    "department": "electronics",
+    "category": "refrigerators",
+    "subcategory": "Double door",
+    "demonstration": true,
+    "description": "Demonstration illustration of a white double-door refrigerator. This is not a confirmed showroom model or inventory listing. Ask us about actual double door options, current prices and availability.",
+    "asset": "refrigerators-09.svg"
+  },
+  {
+    "id": "demo-refrigerators-10",
+    "slug": "demo-refrigerators-10",
+    "name": "Four-Door Refrigerator",
+    "department": "electronics",
+    "category": "refrigerators",
+    "subcategory": "Four door",
+    "demonstration": true,
+    "description": "Demonstration illustration of a four-door refrigerator. This is not a confirmed showroom model or inventory listing. Ask us about actual four door options, current prices and availability.",
+    "asset": "refrigerators-10.svg"
+  },
+  {
+    "id": "demo-washing-machines-01",
+    "slug": "demo-washing-machines-01",
+    "name": "White Front-Load Washer",
+    "department": "electronics",
+    "category": "washing-machines",
+    "subcategory": "Front load",
+    "demonstration": true,
+    "description": "Demonstration illustration of a white front-load washer. This is not a confirmed showroom model or inventory listing. Ask us about actual front load options, current prices and availability.",
+    "asset": "washing-machines-01.svg"
+  },
+  {
+    "id": "demo-washing-machines-02",
+    "slug": "demo-washing-machines-02",
+    "name": "Silver Front-Load Washer",
+    "department": "electronics",
+    "category": "washing-machines",
+    "subcategory": "Front load",
+    "demonstration": true,
+    "description": "Demonstration illustration of a silver front-load washer. This is not a confirmed showroom model or inventory listing. Ask us about actual front load options, current prices and availability.",
+    "asset": "washing-machines-02.svg"
+  },
+  {
+    "id": "demo-washing-machines-03",
+    "slug": "demo-washing-machines-03",
+    "name": "Dark Front-Load Washer",
+    "department": "electronics",
+    "category": "washing-machines",
+    "subcategory": "Front load",
+    "demonstration": true,
+    "description": "Demonstration illustration of a dark front-load washer. This is not a confirmed showroom model or inventory listing. Ask us about actual front load options, current prices and availability.",
+    "asset": "washing-machines-03.svg"
+  },
+  {
+    "id": "demo-washing-machines-04",
+    "slug": "demo-washing-machines-04",
+    "name": "White Top-Load Washer",
+    "department": "electronics",
+    "category": "washing-machines",
+    "subcategory": "Top load",
+    "demonstration": true,
+    "description": "Demonstration illustration of a white top-load washer. This is not a confirmed showroom model or inventory listing. Ask us about actual top load options, current prices and availability.",
+    "asset": "washing-machines-04.svg"
+  },
+  {
+    "id": "demo-washing-machines-05",
+    "slug": "demo-washing-machines-05",
+    "name": "Silver Top-Load Washer",
+    "department": "electronics",
+    "category": "washing-machines",
+    "subcategory": "Top load",
+    "demonstration": true,
+    "description": "Demonstration illustration of a silver top-load washer. This is not a confirmed showroom model or inventory listing. Ask us about actual top load options, current prices and availability.",
+    "asset": "washing-machines-05.svg"
+  },
+  {
+    "id": "demo-washing-machines-06",
+    "slug": "demo-washing-machines-06",
+    "name": "Compact Top-Load Washer",
+    "department": "electronics",
+    "category": "washing-machines",
+    "subcategory": "Top load",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact top-load washer. This is not a confirmed showroom model or inventory listing. Ask us about actual top load options, current prices and availability.",
+    "asset": "washing-machines-06.svg"
+  },
+  {
+    "id": "demo-washing-machines-07",
+    "slug": "demo-washing-machines-07",
+    "name": "Twin-Tub Washer",
+    "department": "electronics",
+    "category": "washing-machines",
+    "subcategory": "Semi-automatic",
+    "demonstration": true,
+    "description": "Demonstration illustration of a twin-tub washer. This is not a confirmed showroom model or inventory listing. Ask us about actual semi-automatic options, current prices and availability.",
+    "asset": "washing-machines-07.svg"
+  },
+  {
+    "id": "demo-washing-machines-08",
+    "slug": "demo-washing-machines-08",
+    "name": "Blue Twin-Tub Washer",
+    "department": "electronics",
+    "category": "washing-machines",
+    "subcategory": "Semi-automatic",
+    "demonstration": true,
+    "description": "Demonstration illustration of a blue twin-tub washer. This is not a confirmed showroom model or inventory listing. Ask us about actual semi-automatic options, current prices and availability.",
+    "asset": "washing-machines-08.svg"
+  },
+  {
+    "id": "demo-washing-machines-09",
+    "slug": "demo-washing-machines-09",
+    "name": "Compact Front-Load Washer",
+    "department": "electronics",
+    "category": "washing-machines",
+    "subcategory": "Front load",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact front-load washer. This is not a confirmed showroom model or inventory listing. Ask us about actual front load options, current prices and availability.",
+    "asset": "washing-machines-09.svg"
+  },
+  {
+    "id": "demo-washing-machines-10",
+    "slug": "demo-washing-machines-10",
+    "name": "Wide Twin-Tub Washer",
+    "department": "electronics",
+    "category": "washing-machines",
+    "subcategory": "Semi-automatic",
+    "demonstration": true,
+    "description": "Demonstration illustration of a wide twin-tub washer. This is not a confirmed showroom model or inventory listing. Ask us about actual semi-automatic options, current prices and availability.",
+    "asset": "washing-machines-10.svg"
+  },
+  {
+    "id": "demo-air-conditioners-01",
+    "slug": "demo-air-conditioners-01",
+    "name": "White Split AC Indoor Unit",
+    "department": "electronics",
+    "category": "air-conditioners",
+    "subcategory": "Split AC indoor unit",
+    "demonstration": true,
+    "description": "Demonstration illustration of a white split ac indoor unit. This is not a confirmed showroom model or inventory listing. Ask us about actual split ac indoor unit options, current prices and availability.",
+    "asset": "air-conditioners-01.svg"
+  },
+  {
+    "id": "demo-air-conditioners-02",
+    "slug": "demo-air-conditioners-02",
+    "name": "Slim Split AC Indoor Unit",
+    "department": "electronics",
+    "category": "air-conditioners",
+    "subcategory": "Split AC indoor unit",
+    "demonstration": true,
+    "description": "Demonstration illustration of a slim split ac indoor unit. This is not a confirmed showroom model or inventory listing. Ask us about actual split ac indoor unit options, current prices and availability.",
+    "asset": "air-conditioners-02.svg"
+  },
+  {
+    "id": "demo-air-conditioners-03",
+    "slug": "demo-air-conditioners-03",
+    "name": "Silver Split AC Indoor Unit",
+    "department": "electronics",
+    "category": "air-conditioners",
+    "subcategory": "Split AC indoor unit",
+    "demonstration": true,
+    "description": "Demonstration illustration of a silver split ac indoor unit. This is not a confirmed showroom model or inventory listing. Ask us about actual split ac indoor unit options, current prices and availability.",
+    "asset": "air-conditioners-03.svg"
+  },
+  {
+    "id": "demo-air-conditioners-04",
+    "slug": "demo-air-conditioners-04",
+    "name": "Dark Split AC Indoor Unit",
+    "department": "electronics",
+    "category": "air-conditioners",
+    "subcategory": "Split AC indoor unit",
+    "demonstration": true,
+    "description": "Demonstration illustration of a dark split ac indoor unit. This is not a confirmed showroom model or inventory listing. Ask us about actual split ac indoor unit options, current prices and availability.",
+    "asset": "air-conditioners-04.svg"
+  },
+  {
+    "id": "demo-air-conditioners-05",
+    "slug": "demo-air-conditioners-05",
+    "name": "Split AC Unit Set",
+    "department": "electronics",
+    "category": "air-conditioners",
+    "subcategory": "Split AC indoor & outdoor set",
+    "demonstration": true,
+    "description": "Demonstration illustration of a split ac unit set. This is not a confirmed showroom model or inventory listing. Ask us about actual split ac indoor & outdoor set options, current prices and availability.",
+    "asset": "air-conditioners-05.svg"
+  },
+  {
+    "id": "demo-air-conditioners-06",
+    "slug": "demo-air-conditioners-06",
+    "name": "Compact Split AC Unit Set",
+    "department": "electronics",
+    "category": "air-conditioners",
+    "subcategory": "Split AC indoor & outdoor set",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact split ac unit set. This is not a confirmed showroom model or inventory listing. Ask us about actual split ac indoor & outdoor set options, current prices and availability.",
+    "asset": "air-conditioners-06.svg"
+  },
+  {
+    "id": "demo-air-conditioners-07",
+    "slug": "demo-air-conditioners-07",
+    "name": "Window Air Conditioner",
+    "department": "electronics",
+    "category": "air-conditioners",
+    "subcategory": "Window AC",
+    "demonstration": true,
+    "description": "Demonstration illustration of a window air conditioner. This is not a confirmed showroom model or inventory listing. Ask us about actual window ac options, current prices and availability.",
+    "asset": "air-conditioners-07.svg"
+  },
+  {
+    "id": "demo-air-conditioners-08",
+    "slug": "demo-air-conditioners-08",
+    "name": "Compact Window Air Conditioner",
+    "department": "electronics",
+    "category": "air-conditioners",
+    "subcategory": "Window AC",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact window air conditioner. This is not a confirmed showroom model or inventory listing. Ask us about actual window ac options, current prices and availability.",
+    "asset": "air-conditioners-08.svg"
+  },
+  {
+    "id": "demo-air-conditioners-09",
+    "slug": "demo-air-conditioners-09",
+    "name": "Wide Window Air Conditioner",
+    "department": "electronics",
+    "category": "air-conditioners",
+    "subcategory": "Window AC",
+    "demonstration": true,
+    "description": "Demonstration illustration of a wide window air conditioner. This is not a confirmed showroom model or inventory listing. Ask us about actual window ac options, current prices and availability.",
+    "asset": "air-conditioners-09.svg"
+  },
+  
+  
+  {
+    "id": "demo-water-heaters-air-coolers-02",
+    "slug": "demo-water-heaters-air-coolers-02",
+    "name": "Compact Water Heater",
+    "department": "electronics",
+    "category": "water-heaters-air-coolers",
+    "subcategory": "Water heater",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact water heater. This is not a confirmed showroom model or inventory listing. Ask us about actual water heater options, current prices and availability.",
+    "asset": "water-heaters-air-coolers-02.svg"
+  },
+  {
+    "id": "demo-water-heaters-air-coolers-03",
+    "slug": "demo-water-heaters-air-coolers-03",
+    "name": "Horizontal Water Heater",
+    "department": "electronics",
+    "category": "water-heaters-air-coolers",
+    "subcategory": "Water heater",
+    "demonstration": true,
+    "description": "Demonstration illustration of a horizontal water heater. This is not a confirmed showroom model or inventory listing. Ask us about actual water heater options, current prices and availability.",
+    "asset": "water-heaters-air-coolers-03.svg"
+  },
+  {
+    "id": "demo-water-heaters-air-coolers-04",
+    "slug": "demo-water-heaters-air-coolers-04",
+    "name": "Slim Water Heater",
+    "department": "electronics",
+    "category": "water-heaters-air-coolers",
+    "subcategory": "Water heater",
+    "demonstration": true,
+    "description": "Demonstration illustration of a slim water heater. This is not a confirmed showroom model or inventory listing. Ask us about actual water heater options, current prices and availability.",
+    "asset": "water-heaters-air-coolers-04.svg"
+  },
+  {
+    "id": "demo-water-heaters-air-coolers-05",
+    "slug": "demo-water-heaters-air-coolers-05",
+    "name": "Square Water Heater",
+    "department": "electronics",
+    "category": "water-heaters-air-coolers",
+    "subcategory": "Water heater",
+    "demonstration": true,
+    "description": "Demonstration illustration of a square water heater. This is not a confirmed showroom model or inventory listing. Ask us about actual water heater options, current prices and availability.",
+    "asset": "water-heaters-air-coolers-05.svg"
+  },
+  {
+    "id": "demo-water-heaters-air-coolers-06",
+    "slug": "demo-water-heaters-air-coolers-06",
+    "name": "Portable Air Cooler",
+    "department": "electronics",
+    "category": "water-heaters-air-coolers",
+    "subcategory": "Portable air cooler",
+    "demonstration": true,
+    "description": "Demonstration illustration of a portable air cooler. This is not a confirmed showroom model or inventory listing. Ask us about actual portable air cooler options, current prices and availability.",
+    "asset": "water-heaters-air-coolers-06.svg"
+  },
+  
+ 
+  
+  
+  {
+    "id": "demo-microwave-ovens-01",
+    "slug": "demo-microwave-ovens-01",
+    "name": "White Solo Microwave",
+    "department": "electronics",
+    "category": "microwave-ovens",
+    "subcategory": "Solo microwave",
+    "demonstration": true,
+    "description": "Demonstration illustration of a white solo microwave. This is not a confirmed showroom model or inventory listing. Ask us about actual solo microwave options, current prices and availability.",
+    "asset": "microwave-ovens-01.svg"
+  },
+  {
+    "id": "demo-microwave-ovens-02",
+    "slug": "demo-microwave-ovens-02",
+    "name": "Silver Solo Microwave",
+    "department": "electronics",
+    "category": "microwave-ovens",
+    "subcategory": "Solo microwave",
+    "demonstration": true,
+    "description": "Demonstration illustration of a silver solo microwave. This is not a confirmed showroom model or inventory listing. Ask us about actual solo microwave options, current prices and availability.",
+    "asset": "microwave-ovens-02.svg"
+  },
+  {
+    "id": "demo-microwave-ovens-03",
+    "slug": "demo-microwave-ovens-03",
+    "name": "Dark Solo Microwave",
+    "department": "electronics",
+    "category": "microwave-ovens",
+    "subcategory": "Solo microwave",
+    "demonstration": true,
+    "description": "Demonstration illustration of a dark solo microwave. This is not a confirmed showroom model or inventory listing. Ask us about actual solo microwave options, current prices and availability.",
+    "asset": "microwave-ovens-03.svg"
+  },
+  {
+    "id": "demo-microwave-ovens-04",
+    "slug": "demo-microwave-ovens-04",
+    "name": "Compact Solo Microwave",
+    "department": "electronics",
+    "category": "microwave-ovens",
+    "subcategory": "Solo microwave",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact solo microwave. This is not a confirmed showroom model or inventory listing. Ask us about actual solo microwave options, current prices and availability.",
+    "asset": "microwave-ovens-04.svg"
+  },
+  
+  {
+    "id": "demo-microwave-ovens-06",
+    "slug": "demo-microwave-ovens-06",
+    "name": "Black Grill Microwave",
+    "department": "electronics",
+    "category": "microwave-ovens",
+    "subcategory": "Grill microwave",
+    "demonstration": true,
+    "description": "Demonstration illustration of a black grill microwave. This is not a confirmed showroom model or inventory listing. Ask us about actual grill microwave options, current prices and availability.",
+    "asset": "microwave-ovens-06.svg"
+  },
+ 
+  
+  
+
+  {
+    "id": "demo-kitchen-chimneys-01",
+    "slug": "demo-kitchen-chimneys-01",
+    "name": "Pyramid Kitchen Chimney",
+    "department": "electronics",
+    "category": "kitchen-chimneys",
+    "subcategory": "Wall-mounted chimney",
+    "demonstration": true,
+    "description": "Demonstration illustration of a pyramid kitchen chimney. This is not a confirmed showroom model or inventory listing. Ask us about actual wall-mounted chimney options, current prices and availability.",
+    "asset": "kitchen-chimneys-01.svg"
+  },
+  {
+    "id": "demo-kitchen-chimneys-02",
+    "slug": "demo-kitchen-chimneys-02",
+    "name": "Curved-Glass Kitchen Chimney",
+    "department": "electronics",
+    "category": "kitchen-chimneys",
+    "subcategory": "Curved-glass chimney",
+    "demonstration": true,
+    "description": "Demonstration illustration of a curved-glass kitchen chimney. This is not a confirmed showroom model or inventory listing. Ask us about actual curved-glass chimney options, current prices and availability.",
+    "asset": "kitchen-chimneys-02.svg"
+  },
+  {
+    "id": "demo-kitchen-chimneys-03",
+    "slug": "demo-kitchen-chimneys-03",
+    "name": "Straight-Glass Kitchen Chimney",
+    "department": "electronics",
+    "category": "kitchen-chimneys",
+    "subcategory": "Straight-glass chimney",
+    "demonstration": true,
+    "description": "Demonstration illustration of a straight-glass kitchen chimney. This is not a confirmed showroom model or inventory listing. Ask us about actual straight-glass chimney options, current prices and availability.",
+    "asset": "kitchen-chimneys-03.svg"
+  },
+ 
+  
+ 
+ 
+ 
+  
+  {
+    "id": "demo-gas-stoves-01",
+    "slug": "demo-gas-stoves-01",
+    "name": "Two-Burner Glass Gas Stove",
+    "department": "electronics",
+    "category": "gas-stoves",
+    "subcategory": "Two-burner glass top",
+    "demonstration": true,
+    "description": "Demonstration illustration of a two-burner glass gas stove. This is not a confirmed showroom model or inventory listing. Ask us about actual two-burner glass top options, current prices and availability.",
+    "asset": "gas-stoves-01.svg"
+  },
+  {
+    "id": "demo-gas-stoves-02",
+    "slug": "demo-gas-stoves-02",
+    "name": "Three-Burner Glass Gas Stove",
+    "department": "electronics",
+    "category": "gas-stoves",
+    "subcategory": "Three-burner glass top",
+    "demonstration": true,
+    "description": "Demonstration illustration of a three-burner glass gas stove. This is not a confirmed showroom model or inventory listing. Ask us about actual three-burner glass top options, current prices and availability.",
+    "asset": "gas-stoves-02.svg"
+  },
+  {
+    "id": "demo-gas-stoves-03",
+    "slug": "demo-gas-stoves-03",
+    "name": "Four-Burner Glass Gas Stove",
+    "department": "electronics",
+    "category": "gas-stoves",
+    "subcategory": "Four-burner glass top",
+    "demonstration": true,
+    "description": "Demonstration illustration of a four-burner glass gas stove. This is not a confirmed showroom model or inventory listing. Ask us about actual four-burner glass top options, current prices and availability.",
+    "asset": "gas-stoves-03.svg"
+  },
+
+  {
+    "id": "demo-mixer-grinders-03",
+    "slug": "demo-mixer-grinders-03",
+    "name": "Silver Mixer with Two Jars",
+    "department": "electronics",
+    "category": "mixer-grinders",
+    "subcategory": "Mixer grinder",
+    "demonstration": true,
+    "description": "Demonstration illustration of a silver mixer with two jars. This is not a confirmed showroom model or inventory listing. Ask us about actual mixer grinder options, current prices and availability.",
+    "asset": "mixer-grinders-03.svg"
+  },
+  {
+    "id": "demo-mixer-grinders-04",
+    "slug": "demo-mixer-grinders-04",
+    "name": "Compact Mixer with One Jar",
+    "department": "electronics",
+    "category": "mixer-grinders",
+    "subcategory": "Compact mixer grinder",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact mixer with one jar. This is not a confirmed showroom model or inventory listing. Ask us about actual compact mixer grinder options, current prices and availability.",
+    "asset": "mixer-grinders-04.svg"
+  },
+  {
+    "id": "demo-mixer-grinders-05",
+    "slug": "demo-mixer-grinders-05",
+    "name": "Dark Mixer with Three Jars",
+    "department": "electronics",
+    "category": "mixer-grinders",
+    "subcategory": "Mixer grinder",
+    "demonstration": true,
+    "description": "Demonstration illustration of a dark mixer with three jars. This is not a confirmed showroom model or inventory listing. Ask us about actual mixer grinder options, current prices and availability.",
+    "asset": "mixer-grinders-05.svg"
+  },
+ 
+  {
+    "id": "demo-laptops-computers-01",
+    "slug": "demo-laptops-computers-01",
+    "name": "Slim Silver Laptop",
+    "department": "electronics",
+    "category": "laptops-computers",
+    "subcategory": "Laptop",
+    "demonstration": true,
+    "description": "Demonstration illustration of a slim silver laptop. This is not a confirmed showroom model or inventory listing. Ask us about actual laptop options, current prices and availability.",
+    "asset": "laptops-computers-01.svg"
+  },
+  {
+    "id": "demo-laptops-computers-02",
+    "slug": "demo-laptops-computers-02",
+    "name": "Dark Business Laptop",
+    "department": "electronics",
+    "category": "laptops-computers",
+    "subcategory": "Business laptop",
+    "demonstration": true,
+    "description": "Demonstration illustration of a dark business laptop. This is not a confirmed showroom model or inventory listing. Ask us about actual business laptop options, current prices and availability.",
+    "asset": "laptops-computers-02.svg"
+  },
+  {
+    "id": "demo-laptops-computers-03",
+    "slug": "demo-laptops-computers-03",
+    "name": "Wide Gaming Laptop",
+    "department": "electronics",
+    "category": "laptops-computers",
+    "subcategory": "Gaming laptop",
+    "demonstration": true,
+    "description": "Demonstration illustration of a wide gaming laptop. This is not a confirmed showroom model or inventory listing. Ask us about actual gaming laptop options, current prices and availability.",
+    "asset": "laptops-computers-03.svg"
+  },
+ 
+  
+ 
+  {
+    "id": "demo-tablets-smartphones-01",
+    "slug": "demo-tablets-smartphones-01",
+    "name": "Dark Smartphone",
+    "department": "electronics",
+    "category": "tablets-smartphones",
+    "subcategory": "Smartphone",
+    "demonstration": true,
+    "description": "Demonstration illustration of a dark smartphone. This is not a confirmed showroom model or inventory listing. Ask us about actual smartphone options, current prices and availability.",
+    "asset": "tablets-smartphones-01.svg"
+  },
+ 
+  
+ 
+  {
+    "id": "demo-tablets-smartphones-05",
+    "slug": "demo-tablets-smartphones-05",
+    "name": "Rounded Smartphone",
+    "department": "electronics",
+    "category": "tablets-smartphones",
+    "subcategory": "Smartphone",
+    "demonstration": true,
+    "description": "Demonstration illustration of a rounded smartphone. This is not a confirmed showroom model or inventory listing. Ask us about actual smartphone options, current prices and availability.",
+    "asset": "tablets-smartphones-05.svg"
+  },
+  {
+    "id": "demo-tablets-smartphones-06",
+    "slug": "demo-tablets-smartphones-06",
+    "name": "Compact Smartphone",
+    "department": "electronics",
+    "category": "tablets-smartphones",
+    "subcategory": "Smartphone",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact smartphone. This is not a confirmed showroom model or inventory listing. Ask us about actual smartphone options, current prices and availability.",
+    "asset": "tablets-smartphones-06.svg"
+  },
+
+  {
+    "id": "demo-tablets-smartphones-08",
+    "slug": "demo-tablets-smartphones-08",
+    "name": "Dark Tablet",
+    "department": "electronics",
+    "category": "tablets-smartphones",
+    "subcategory": "Tablet",
+    "demonstration": true,
+    "description": "Demonstration illustration of a dark tablet. This is not a confirmed showroom model or inventory listing. Ask us about actual tablet options, current prices and availability.",
+    "asset": "tablets-smartphones-08.svg"
+  },
+  {
+    "id": "demo-tablets-smartphones-09",
+    "slug": "demo-tablets-smartphones-09",
+    "name": "Compact Tablet",
+    "department": "electronics",
+    "category": "tablets-smartphones",
+    "subcategory": "Tablet",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact tablet. This is not a confirmed showroom model or inventory listing. Ask us about actual tablet options, current prices and availability.",
+    "asset": "tablets-smartphones-09.svg"
+  },
+  {
+    "id": "demo-tablets-smartphones-10",
+    "slug": "demo-tablets-smartphones-10",
+    "name": "Wide Tablet",
+    "department": "electronics",
+    "category": "tablets-smartphones",
+    "subcategory": "Tablet",
+    "demonstration": true,
+    "description": "Demonstration illustration of a wide tablet. This is not a confirmed showroom model or inventory listing. Ask us about actual tablet options, current prices and availability.",
+    "asset": "tablets-smartphones-10.svg"
+  },
+ 
+ 
+  
+  {
+    "id": "demo-earbuds-headphones-04",
+    "slug": "demo-earbuds-headphones-04",
+    "name": "Compact Earbuds with Case",
+    "department": "electronics",
+    "category": "earbuds-headphones",
+    "subcategory": "True wireless earbuds",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact earbuds with case. This is not a confirmed showroom model or inventory listing. Ask us about actual true wireless earbuds options, current prices and availability.",
+    "asset": "earbuds-headphones-04.svg"
+  },
+  {
+    "id": "demo-earbuds-headphones-05",
+    "slug": "demo-earbuds-headphones-05",
+    "name": "Stemless Earbuds with Case",
+    "department": "electronics",
+    "category": "earbuds-headphones",
+    "subcategory": "True wireless earbuds",
+    "demonstration": true,
+    "description": "Demonstration illustration of a stemless earbuds with case. This is not a confirmed showroom model or inventory listing. Ask us about actual true wireless earbuds options, current prices and availability.",
+    "asset": "earbuds-headphones-05.svg"
+  },
+  {
+    "id": "demo-earbuds-headphones-06",
+    "slug": "demo-earbuds-headphones-06",
+    "name": "Silver Over-Ear Headphones",
+    "department": "electronics",
+    "category": "earbuds-headphones",
+    "subcategory": "Over-ear headphones",
+    "demonstration": true,
+    "description": "Demonstration illustration of a silver over-ear headphones. This is not a confirmed showroom model or inventory listing. Ask us about actual over-ear headphones options, current prices and availability.",
+    "asset": "earbuds-headphones-06.svg"
+  },
+  
+
+ 
+  {
+    "id": "demo-earbuds-headphones-10",
+    "slug": "demo-earbuds-headphones-10",
+    "name": "Compact On-Ear Headphones",
+    "department": "electronics",
+    "category": "earbuds-headphones",
+    "subcategory": "On-ear headphones",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact on-ear headphones. This is not a confirmed showroom model or inventory listing. Ask us about actual on-ear headphones options, current prices and availability.",
+    "asset": "earbuds-headphones-10.svg"
+  },
+  
+  
+
+  {
+    "id": "demo-cameras-01",
+    "slug": "demo-cameras-01",
+    "name": "Dark DSLR-Style Camera",
+    "department": "electronics",
+    "category": "cameras",
+    "subcategory": "DSLR-style camera",
+    "demonstration": true,
+    "description": "Demonstration illustration of a dark dslr-style camera. This is not a confirmed showroom model or inventory listing. Ask us about actual dslr-style camera options, current prices and availability.",
+    "asset": "cameras-01.svg"
+  },
+  {
+    "id": "demo-cameras-02",
+    "slug": "demo-cameras-02",
+    "name": "Wide DSLR-Style Camera",
+    "department": "electronics",
+    "category": "cameras",
+    "subcategory": "DSLR-style camera",
+    "demonstration": true,
+    "description": "Demonstration illustration of a wide dslr-style camera. This is not a confirmed showroom model or inventory listing. Ask us about actual dslr-style camera options, current prices and availability.",
+    "asset": "cameras-02.svg"
+  },
+  {
+    "id": "demo-cameras-03",
+    "slug": "demo-cameras-03",
+    "name": "Compact DSLR-Style Camera",
+    "department": "electronics",
+    "category": "cameras",
+    "subcategory": "DSLR-style camera",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact dslr-style camera. This is not a confirmed showroom model or inventory listing. Ask us about actual dslr-style camera options, current prices and availability.",
+    "asset": "cameras-03.svg"
+  },
+  
+ 
+  
+  
+ 
+ 
+  {
+    "id": "demo-cameras-10",
+    "slug": "demo-cameras-10",
+    "name": "Rounded Compact Digital Camera",
+    "department": "electronics",
+    "category": "cameras",
+    "subcategory": "Compact digital camera",
+    "demonstration": true,
+    "description": "Demonstration illustration of a rounded compact digital camera. This is not a confirmed showroom model or inventory listing. Ask us about actual compact digital camera options, current prices and availability.",
+    "asset": "cameras-10.svg"
+  },
+  {
+    "id": "demo-speakers-home-theatre-01",
+    "slug": "demo-speakers-home-theatre-01",
+    "name": "Compact Bluetooth Speaker",
+    "department": "electronics",
+    "category": "speakers-home-theatre",
+    "subcategory": "Portable Bluetooth speaker",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact bluetooth speaker. This is not a confirmed showroom model or inventory listing. Ask us about actual portable bluetooth speaker options, current prices and availability.",
+    "asset": "speakers-home-theatre-01.svg"
+  },
+ 
+  
+  {
+    "id": "demo-speakers-home-theatre-04",
+    "slug": "demo-speakers-home-theatre-04",
+    "name": "Tall Party Speaker",
+    "department": "electronics",
+    "category": "speakers-home-theatre",
+    "subcategory": "Party speaker",
+    "demonstration": true,
+    "description": "Demonstration illustration of a tall party speaker. This is not a confirmed showroom model or inventory listing. Ask us about actual party speaker options, current prices and availability.",
+    "asset": "speakers-home-theatre-04.svg"
+  },
+  
+  {
+    "id": "demo-speakers-home-theatre-06",
+    "slug": "demo-speakers-home-theatre-06",
+    "name": "Slim Soundbar",
+    "department": "electronics",
+    "category": "speakers-home-theatre",
+    "subcategory": "Soundbar",
+    "demonstration": true,
+    "description": "Demonstration illustration of a slim soundbar. This is not a confirmed showroom model or inventory listing. Ask us about actual soundbar options, current prices and availability.",
+    "asset": "speakers-home-theatre-06.svg"
+  },
+  
+  {
+    "id": "demo-speakers-home-theatre-08",
+    "slug": "demo-speakers-home-theatre-08",
+    "name": "Home Theatre Speaker Set",
+    "department": "electronics",
+    "category": "speakers-home-theatre",
+    "subcategory": "Home theatre system",
+    "demonstration": true,
+    "description": "Demonstration illustration of a home theatre speaker set. This is not a confirmed showroom model or inventory listing. Ask us about actual home theatre system options, current prices and availability.",
+    "asset": "speakers-home-theatre-08.svg"
+  },
+ 
+  {
+    "id": "demo-speakers-home-theatre-10",
+    "slug": "demo-speakers-home-theatre-10",
+    "name": "Tall Home Theatre Speaker Set",
+    "department": "electronics",
+    "category": "speakers-home-theatre",
+    "subcategory": "Home theatre system",
+    "demonstration": true,
+    "description": "Demonstration illustration of a tall home theatre speaker set. This is not a confirmed showroom model or inventory listing. Ask us about actual home theatre system options, current prices and availability.",
+    "asset": "speakers-home-theatre-10.svg"
+  },
+ 
+  {
+    "id": "demo-projectors-03",
+    "slug": "demo-projectors-03",
+    "name": "Wide Home Cinema Projector",
+    "department": "electronics",
+    "category": "projectors",
+    "subcategory": "Home cinema projector",
+    "demonstration": true,
+    "description": "Demonstration illustration of a wide home cinema projector. This is not a confirmed showroom model or inventory listing. Ask us about actual home cinema projector options, current prices and availability.",
+    "asset": "projectors-03.svg"
+  },
+ 
+  {
+    "id": "demo-projectors-05",
+    "slug": "demo-projectors-05",
+    "name": "Compact Presentation Projector",
+    "department": "electronics",
+    "category": "projectors",
+    "subcategory": "Presentation projector",
+    "demonstration": true,
+    "description": "Demonstration illustration of a compact presentation projector. This is not a confirmed showroom model or inventory listing. Ask us about actual presentation projector options, current prices and availability.",
+    "asset": "projectors-05.svg"
+  },
+  {
+    "id": "demo-projectors-06",
+    "slug": "demo-projectors-06",
+    "name": "Wide Presentation Projector",
+    "department": "electronics",
+    "category": "projectors",
+    "subcategory": "Presentation projector",
+    "demonstration": true,
+    "description": "Demonstration illustration of a wide presentation projector. This is not a confirmed showroom model or inventory listing. Ask us about actual presentation projector options, current prices and availability.",
+    "asset": "projectors-06.svg"
+  }
+  
+ 
+ 
+  
+  
+]
